@@ -1,4 +1,3 @@
-import Footer from "./footer/Footer";
 import Home from "./pages/home/Home";
 import TopBar from "./topBar/TopBar";
 function App() {
@@ -6,7 +5,6 @@ function App() {
     <div className="App">
     <TopBar/>
     <Home/>
-    <Footer/>
     </div>
   );
 }
