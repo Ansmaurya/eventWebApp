@@ -1,4 +1,29 @@
-.header{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.landingImage{
+width: 100vw;
+height: 100vh;
+object-fit: cover;
+filter: brightness(0.6);
+position: absolute;
+top:0;
+left: 0;
+z-index: -1;
+}
+.carouselTitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* .header{
     margin-top:60px ;
 }
 .headerTitiles{
@@ -21,4 +46,4 @@
 .HeaderImg{
     width: 100vw;
     height: 100vh;
-}
+} */

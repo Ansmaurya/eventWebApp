@@ -1,12 +1,18 @@
-import Footer from "./footer/Footer";
-import Home from "./pages/home/Home";
-import TopBar from "./topBar/TopBar";
+import React from "react";
+import Header from "./header/Header";
+import Carousel from "./header/Carousel";
+import EventPost from "./event/EventPost";
+import EventDetails from "./eventDetails/EventDetails";
+import Brand from "./brandCarousel/Brand";
+
 function App() {
   return (
-    <div className="App">
-    <TopBar/>
-    <Home/>
-    <Footer/>
+    <div>
+      <Carousel />
+      <Header />
+      <EventPost/>
+      <EventDetails/>
+      <Brand/>
     </div>
   );
 }
