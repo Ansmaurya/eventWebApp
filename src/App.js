@@ -4,6 +4,8 @@ import Carousel from "./header/Carousel";
 import EventPost from "./event/EventPost";
 import EventDetails from "./eventDetails/EventDetails";
 import Brand from "./brandCarousel/Brand";
+import Footer from "./footer/Footer";
+import Topdonner from "./topdonner/Topdonner";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Header />
       <EventPost/>
       <EventDetails/>
-      <Brand/>
+      {/* <Brand/> */}
+      <Topdonner/>
+      <Footer/>
     </div>
   );
 }
