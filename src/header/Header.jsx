@@ -1,5 +1,7 @@
+
 import React, { useEffect, useState } from "react";
 import "./header.css";
+import carousel1 from "./carousel1.jpg";
 
 function Header() {
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
@@ -22,6 +24,12 @@ function Header() {
 
   return (
     <div>
+      <img
+        src={carousel1}
+        class="landingImage"
+        alt="..."
+        style={{ height: "100vh" }}
+      />
       <div className="container">
         <ul className="nav d-flex justify-content-between">
           <li className="nav-item">
@@ -82,7 +90,10 @@ function Header() {
         />
       </div>
       <nav
-        className={ isNavbarFixed ? "navbar navbar-expand-md navbar-light fixed-top bg-light p-4" :"navbar sticky-top navbar-expand-lg navbar-light navbar-dark"
+        className={
+          isNavbarFixed
+            ? "navbar navbar-expand-md navbar-light fixed-top bg-light p-4"
+            : "navbar sticky-top navbar-expand-lg navbar-light navbar-dark"
         }
       >
         <div className="container">

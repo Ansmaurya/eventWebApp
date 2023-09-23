@@ -6,16 +6,18 @@ import EventDetails from "./eventDetails/EventDetails";
 import Brand from "./brandCarousel/Brand";
 import Footer from "./footer/Footer";
 import Topdonner from "./topdonner/Topdonner";
+import LetestNews from "./letestNews/LetestNews";
 
 function App() {
   return (
     <div>
       <Carousel />
       <Header />
+      <LetestNews/>
       <EventPost/>
       <EventDetails/>
-      {/* <Brand/> */}
-      <Topdonner/>
+      <Brand/>
+      <Topdonner/>s
       <Footer/>
     </div>
   );

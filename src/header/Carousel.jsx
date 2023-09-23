@@ -7,8 +7,11 @@ import carousel4 from "./carousel4.jpg";
 
 function Carousel() {
   return (
-    <div
-      id="carouselExampleIndicators"
+    // <div className="cursol">
+    //   <img src={carousel1} alt="" />
+    // </div>
+  
+    <div id="carouselExampleIndicators"
       class="carousel slide landingImage"
       data-bs-ride="carousel"
     >
